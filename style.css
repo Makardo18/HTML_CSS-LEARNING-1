@@ -1,0 +1,455 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main_container {
+  margin: 0 auto;
+  max-width: 1903px;
+  width: 100%;
+}
+
+.main_container .header {
+  display: flex;
+  height: 840px;
+}
+
+.main_container .header .left_part {
+  padding-left: 20%;
+  width: 64%;
+  background-color: #C98A40;
+  position: relative;
+}
+
+.main_container .header .left_part .top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 194px;
+  gap: 16px;
+}
+
+.main_container .header .left_part .top .bread_icon {
+  width: 53px;
+  height: 52px;
+}
+
+.main_container .header .left_part .top .company_name {
+  font-size: 28px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: 'Sen', sans-serif;
+  width: 179px;
+}
+
+.main_container .header .left_part .middle {
+  margin-bottom: 190px;
+  width: 621px;
+}
+
+.main_container .header .left_part .middle .title {
+  font-size: 68px;
+  font-weight: 800;
+  font-family: 'Sen', sans-serif;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.main_container .header .left_part .middle .subtitle {
+  width: 552px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.main_container .header .left_part .middle .see_the_rest {
+  padding: 18px 53px;
+  border: none;
+  border-radius: 30px;
+  background-color: #FDBA10;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.main_container .header .right_part {
+  width: 36%;
+  background-image: url(images/header/back-ground.jpg);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.main_container .header .left_part .middle .buns_container {
+  position: absolute;
+  bottom: 100px;
+  right: -330px;
+  z-index: 2;
+}
+
+.main_container .header .left_part .middle .buns_container .star_quality {
+  position: absolute;
+  bottom: -50px;
+  right: 240px;
+}
+
+.main_container .header .bottom {
+  display: flex;
+  align-items: center;
+  gap: 57px;
+  color: #ffffff;
+}
+
+.main_container .header .bottom span {
+  margin-left: 14px;
+}
+
+.main_container .header .bottom .logos {
+  display: flex;
+  gap: 16px;
+}
+
+.main_container .work-container .how_we_work {
+  height: 840px;
+  display: flex;
+  position: relative;
+}
+
+.main_container .work-container .how_we_work .left_part {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 36%;
+}
+
+.main_container .work-container .how_we_work .left_part::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(images/work-container/back-ground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.main_container .work-container .how_we_work .left_part p {
+  position: relative;
+  margin-top: 18%;
+  margin-right: 6%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  width: 260px;
+  font-weight: 600;
+  color: #C98A40;
+}
+
+.main_container .work-container .how_we_work .right_part {
+  width: 64%;
+  background-color: #C98A40;
+  background-repeat: no-repeat;
+}
+
+.main_container .work-container .how_we_work .right_part h1 {
+  width: 630px;
+  text-align: right;
+  color: #ffffff;
+  font-size: 144px;
+  font-weight: 800;
+  font-family: 'Sen', sans-serif;
+  text-transform: uppercase;
+  margin-left: 18%;
+  margin-bottom: 380px;
+  line-height: 138px;
+}
+
+.main_container .work-container .how_we_work .right_part button {
+  margin-left: 15%;
+  padding: 18px 38px;
+  background-color: #FDBA10;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 30px;
+}
+
+.main_container .work-container .how_we_work .photos_of_food {
+  width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 15%;
+  left: 20%;
+}
+
+.main_container .work-container .about_us {
+  height: 840px;
+  display: flex;
+  position: relative;
+}
+
+.main_container .work-container .about_us .left_part {
+  width: 64%;
+  background-color: #C98A40;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.main_container .work-container .about_us .left_part .text {
+  width: 508px;
+  margin-left: 30%;
+}
+
+.main_container .work-container .about_us .left_part .text h1 {
+  margin-top: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: 'Sen', sans-serif;
+  font-size: 144px;
+  font-weight: 800;
+  line-height: 138.24px;
+  margin-bottom: 50px;
+}
+
+.main_container .work-container .about_us .left_part .text p {
+  margin-top: 0;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 42px;
+}
+
+.main_container .work-container .about_us .left_part .text button {
+  padding: 18px 38px;
+  background-color: #FDBA10;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 30px;
+}
+
+.main_container .work-container .about_us .right_part {
+  width: 36%;
+  background-color: #ffffff;
+}
+
+.main_container .work-container .about_us img {
+  position: absolute;
+  width: 642px;
+  height: 740px;
+  top: 50px;
+  right: 351px;
+}
+
+.main_container .work-container .services {
+  height: 910px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.main_container .work-container .services h1 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 40px;
+  width: 715px;
+  font-family: 'Sen', sans-serif;
+  font-size: 144px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #C98A40;
+}
+
+.main_container .work-container .services .content-container {
+  display: flex;
+  gap: 22px;
+  margin-bottom: 68px;
+}
+
+.main_container .work-container .services .content-container .service {
+  display: flex;
+  flex-direction: column;
+  width: 385px;
+}
+
+.main_container .work-container .services .content-container .service div {
+  padding-left: 30px;
+  border: 2px solid #FFD8AB;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-bottom: 10px;
+}
+
+.main_container .work-container .services .content-container .service h4 {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  color: #C98A40;
+}
+
+.main_container .work-container .services .content-container .service p {
+  color: #333333;
+  font-size: 14px;
+  font-family: serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  width: 315px;
+}
+
+.main_container .work-container .services button {
+  padding: 18px 38px;
+  background-color: #FDBA10;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 30px;
+}
+
+.main_container .work-container .testymonials {
+  height: 898px;
+  background-color: #C98A40;
+}
+
+.main_container .work-container .testymonials h1 {
+  margin: 0;
+  padding-top: 86px;
+  margin-bottom: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 144px;
+  font-weight: 800;
+  font-family: 'Sen', sans-serif;
+  color: #ffffff;
+}
+
+.main_container .work-container .testymonials .comments {
+  display: grid;
+  grid-template-columns: 512px 512px;
+  grid-template-rows: 192px 192px;
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 50px;
+  margin-bottom: 50px;
+}
+
+.main_container .work-container .testymonials .comments .comment_ {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding-left: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main_container .work-container .testymonials .comments .comment_ .text h4 {
+  font-size: 16px;
+  font-weight: 900;
+  color: #C98A40;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.main_container .work-container .testymonials .comments .comment_ .text p {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.main_container .work-container .testymonials button {
+  display: block;
+  margin: 0 auto;
+  padding: 18px 38px;
+  background-color: #FDBA10;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 30px;
+}
+
+.main_container .work-container .contact_us {
+  height: 554px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.main_container .work-container .contact_us h1 {
+  margin-top: 0;
+  font-size: 144px;
+  font-family: 'Sen', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #C98A40;
+  margin-bottom: 50px;
+}
+
+.main_container .work-container .contact_us .content-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 14px;
+}
+
+.main_container .work-container .contact_us .content-container .blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.main_container .work-container .contact_us .content-container .blocks button {
+  width: 374px;
+  height: 56px;
+  border: none;
+  border-radius: 61px;
+  background-color: #FFD39F;
+}
+
+.main_container .work-container .contact_us .content-container .contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.main_container .work-container .contact_us .content-container .contacts div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main_container .work-container .contact_us > button {
+  width: 168px;
+  height: 56px;
+  background-color: transparent;
+  border: 3px solid #C98A40;
+  border-radius: 61px;
+  margin-left: -440px;
+}
+
+.main_container .footer {
+  height: 117px;
+  background-color: #584125;
+}
